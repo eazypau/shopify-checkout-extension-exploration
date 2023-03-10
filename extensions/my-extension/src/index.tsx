@@ -19,8 +19,8 @@ import {
 	Text,
 } from "@shopify/checkout-ui-extensions-react";
 // import { useBanner } from "./global";
-import withReactContent from "sweetalert2-react-content";
-import Swal from "sweetalert2";
+// import withReactContent from "sweetalert2-react-content";
+// import Swal from "sweetalert2";
 
 // render("Checkout::Dynamic::Render", () => <App />);
 
