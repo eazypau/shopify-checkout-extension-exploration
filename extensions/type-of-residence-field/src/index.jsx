@@ -17,8 +17,8 @@ render("Checkout::DeliveryAddress::RenderBefore", () => <App />);
 
 function App() {
 	const typeOfResidence = useMetafield({
-		namespace: "type_of_residence",
-		key: "typeOfResidence",
+		namespace: "custom_attributes",
+		key: "type_of_residence",
 	});
 
 	const customFields = {
@@ -120,13 +120,13 @@ function App() {
 	];
 
 	const buildingName = useMetafield({
-		namespace: "building_name",
-		key: "buildingName",
+		namespace: "custom_attributes",
+		key: "building_name",
 	});
 
 	const roomNumberProperty = useMetafield({
-		namespace: "room_number",
-		key: "roomNumber",
+		namespace: "custom_attributes",
+		key: "room_number",
 	});
 
 	const applyMetafieldsChange = useApplyMetafieldsChange();
