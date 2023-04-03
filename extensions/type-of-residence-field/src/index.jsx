@@ -146,8 +146,8 @@ function App() {
 	function onSelectChange(value) {
 		applyMetafieldsChange({
 			type: "updateMetafield",
-			namespace: "type_of_residence",
-			key: "typeOfResidence",
+			namespace: "custom_attributes",
+			key: "type_of_residence",
 			valueType: "string",
 			value,
 		});
@@ -231,8 +231,8 @@ function App() {
 						setApartmentName(value);
 						applyMetafieldsChange({
 							type: "updateMetafield",
-							namespace: "building_name",
-							key: "buildingName",
+							namespace: "custom_attributes",
+							key: "building_name",
 							valueType: "string",
 							value,
 						});
@@ -246,8 +246,8 @@ function App() {
 					onChange={(value) => {
 						applyMetafieldsChange({
 							type: "updateMetafield",
-							namespace: "room_number",
-							key: "roomNumber",
+							namespace: "custom_attributes",
+							key: "room_number",
 							valueType: "string",
 							value,
 						});
